@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    border: none; outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition:  all .2s linear;
+}
+
+
+:root {
+    --green: #004743;
+    --light-gray: #74ca4d;
+    --yellow: #fbd103;
+    --gray: #e7e7e7;
+    --white-gray: #f7f7f7;
+    --dark: #323232;
+    --blue: #5bc8e8;
+    --box-shadow: 0 .5rem 1.5rem rgb(0,0,0, .1);
+}
+
+
+
+/* Arrival Boxes  */
+
+.arr-boxes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* background: #ddd; */
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+}
+
+.arr-box1 {
+    margin: 10px 15px;
+}
+
+
+.arr-box-img {
+    position: relative;
+
+}
+
+.arr-box-img img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.box-img-icons  {
+    position: absolute;
+    margin-left: 200px;
+    transform: translateY(-170px);
+}
+
+.box-img-icons i  {
+    display: block;
+    font-size: 20px;
+    color: var(--dark);
+    background: #fff;
+    padding: 9px;
+    margin: 7px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.box-img-icons i:hover {
+    background: var(--yellow);
+    transform: rotate(360deg);
+}
+
+
+
+
+.arr-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.arr-stars p {
+    font-size: 1.7rem;
+}
+
+.arr-stars i {
+    font-size: 1.5rem;
+    color: var(--yellow);
+    cursor: pointer;
+} 
+
+.arr-stars i:hover {
+    color: transparent;
+    text-shadow: 5px 5px 5px var(--yellow);
+}
+
+.arr-box-text-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.arr-box-text-price h3 {
+    font-size: 2rem;
+}
+
+.arr-box-text-price .price {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.arr-box-text-price .price p {
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--light-gray);
+}
+
+.arr-box-text-price .price span p {
+    color: rgb(114, 114, 114) !important;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+
+
+/* responsive arr  */
+
+@media(max-width: 992px) {
+    .arr-boxes {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media(max-width: 480px) {
+    .arrivals h1 {
+        font-size: 2.8rem;
+    }
+
+    .arrivals p {
+        font-size: 1.4rem;
+    }
+
+    .arrivals .all a {
+        font-size: 1.5rem;
+        margin: 1px 5px;
+        padding: 5px 24px;
+    }
+}
+
+@media(max-width: 375px) {
+    .arrivals .all a {
+        padding: 5px 20px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
