@@ -172,6 +172,285 @@
 
 
 
+/* Top brand Deal Part  */
+
+
+.deal {
+    width: 100%;
+    height: auto;
+}
+
+.deal-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--green);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px 60px;
+}
+
+.deal-box h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.deal-box p {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.deal-box p span {
+    color: var(--yellow);
+}
+
+.deal-box .deal-box-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-box-img img {
+    margin: 5px;
+}
+
+
+
+@media(max-width: 480px) {
+    .deal-box h1 {
+        font-size: 2.8rem;
+    }
+
+    .deal-box p {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .deal-box {
+        margin: 20px 30px;
+    }
+}
+
+
+
+/* end of deal box  */
+
+
+
+/* review part  */
+
+
+#review {
+    width: 100%;
+    height: auto;
+    background: #e7e7e7;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#review h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#review p {
+    font-size: 1.8rem;
+    color: #212121;
+}
+
+
+.testimonial {
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    width: 630px;
+    height: 300px;
+    margin-top: 60px;
+    border-radius: 10px 10px 190px 10px;
+    padding: 40px 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.testimonial img {
+    width: 240px;
+    height: 200px;
+}
+
+.text-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.text-testimonial p {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.text-testimonial h4 {
+    font-size: 1.6rem;
+    margin: 10px;
+}
+
+.text-testimonial img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    transform: translateX(200px);
+    cursor: pointer;
+}
+
+.text-testimonial img:hover {
+    background: var(--yellow);
+}
+
+
+
+@media(max-width:768px) {
+    .testimonial {
+        width: 500px;
+        height: 320px;
+    }
+
+    .testimonial img {
+        width: 210px;
+        height: 180px;
+    }
+    
+
+    .text-testimonial img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        transform: translateX(200px);
+        cursor: pointer;
+    }
+
+    .text-testimonial img {
+        transform: translateX(2px);
+    }
+}
+
+
+@media(max-width:480px) {
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: auto;
+    }
+}
+
+
+/* end of testimonial  */
+
+
+/* newsletter  */
+
+
+#newsletter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#newsletter h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#newsletter p {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#newsletter .email-box {
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.email-box input {
+    position: relative;
+    background: var(--gray);
+    color: var(--dark);
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.email-box button {
+    font-size: 20px;
+    background: var(--yellow);
+    border-radius: 30px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social i {
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+    background: var(--gray);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.social i:hover {
+    background: var(--yellow);
+}
+
+
+
+@media(max-width:480px) {
+    #newsletter img {
+        width: 100px;
+    }
+
+
+    .email-box input {
+        width: 280px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .email-box button {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .social i {
+        font-size: 20px;
+    }
+
+}
+
 
 
 
