@@ -992,7 +992,6 @@ header .icons #menu-bars {
 }
 
 .arrivals .all {
-    display: flex;
     flex-direction: row;
 }
 
